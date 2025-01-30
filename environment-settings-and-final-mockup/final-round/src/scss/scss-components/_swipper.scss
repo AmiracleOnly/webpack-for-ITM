@@ -1,0 +1,167 @@
+h2 {
+    font-weight: normal;
+  }
+
+  .brand-section__show-more {
+    margin-top: 0.5rem;
+  }
+
+
+  .brand-section__card {
+    /* display: grid; */
+    /* grid-template-columns: repeat(4, 1fr); */
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .brand-section__repair {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* gap: 1rem; */
+  }
+
+  /*BRAND SECTION*/
+  .brad-section__title{
+    text-transform: uppercase;
+    color: var(--color--link--grey);
+    padding: 1.5rem;
+    border-top: 1px solid #D9FFF5;
+    background: linear-gradient(0.15turn, #f8f8f8, #fff);
+  }
+
+  .brand-section__grid {
+    position: relative;
+    padding: 0 1.5rem;
+  }
+
+  .card{
+    width: fit-content;
+  }
+
+  .card > button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 2rem;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    background-color: #fff;
+    border: 1px, solid, grey;
+  }
+
+  .card__btn {
+    display: flex;
+    width: 15rem;
+  }
+
+  .show-more__btn {
+    display: flex;
+  }
+
+  .show__all-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    transition: all 1s;
+    background: none;
+    font-weight: 500;
+  }
+
+
+  .block {
+    display: block;
+  }
+
+  .card__block {
+    display: none;
+  }
+
+  .block,
+  .card__block {
+    transition: opacity 0.5s, transform 0.5s;
+    -webkit-transition: opacity 0.5s, transform 0.5s;
+    -moz-transition: opacity 0.5s, transform 0.5s;
+    -ms-transition: opacity 0.5s, transform 0.5s;
+    -o-transition: opacity 0.5s, transform 0.5s;
+  }
+
+  .show__btn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border: none;
+    background-color: #fff;
+    transition: all 1s;
+    background: none;
+    font-weight: 500;
+  }
+
+  /*NEW SLIDER BRAND*/
+
+  .card-brand__slide {
+    width: 14rem;
+    height: 10rem;
+  }
+
+  .card__brand > button {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    background-color: #fff;
+    border: 1px, solid, grey;
+    font-size: 1rem;
+  }
+
+  .card-brand__img {
+    display: flex;
+    align-self: flex-end;
+  }
+
+  .repair__block {
+    display: block;
+  }
+
+  .repair__card-block {
+    display: none;
+  }
+
+  @media (max-width: 556px) {
+    .brand-section__card {
+      display: flex;
+    }
+  }
+
+  @media(max-width:555px){
+    .brand-section__card{
+        gap: 1rem;
+      }
+
+      .block,
+      .card__block {
+        display: block;
+      }
+
+    .repair__block,
+    .repair__card-block{
+        display: block;
+    }
+
+  }
+
+
+
+
+

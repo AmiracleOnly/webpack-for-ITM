@@ -1,0 +1,135 @@
+.services-section__block{
+    padding: 1.5rem 1.5rem 1.5rem 0;
+  }
+
+  .services-section__title{
+    text-transform: uppercase;
+    color: $color--link--grey;
+  }
+
+  .services__block--text-grid{
+    display: grid;
+    grid-template-columns: 4fr 2fr 3fr auto;
+    padding: 0 0 1rem 1rem;
+  }
+
+  .grid__row-hidden{
+    display: none;
+    font-weight: 400;
+    color: $color--link--grey;
+  }
+
+  .services-section__grid{
+    display: grid;
+    /* background-color: var(--color--block--white); */
+    border-radius: 0.5rem;
+  }
+
+  .grid__row{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr auto;
+    gap: 1rem;
+    padding: 1em;
+    border-bottom: solid 1px $color-block--grey;
+    background-color: $color--block--white;
+    font-weight: 300;
+    color: #1B1C21;
+
+  }
+
+  .grid__row:nth-last-child(1){
+    border-bottom: none;
+  }
+
+  .grid__row--item--btn{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    padding: 0.4em 1rem;
+    background-color: $color--fuksi-btn;
+    color: aliceblue;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    border: none;
+  }
+
+  .grid__row--item-show{
+    display: none;
+  }
+
+  .services-block{
+    width: calc(100%/1.999);
+    padding: 1.5rem 0 0 0;
+  }
+
+  .services-block__btn{
+    margin-top: 1rem;
+    display: flex;
+    width: max-content;
+    cursor: pointer;
+  }
+
+  .services-block__btn-modified{
+    font-weight: normal;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    // padding-right: 0.4rem;
+    background: none;
+    border: none;
+
+  }
+
+  @media(max-width: 555px){
+    .services__block--text-grid{
+        display: none;
+      }
+
+      .services-section__grid{
+        display: flex;
+        gap: 1rem;
+      }
+
+
+
+        .grid__row-hidden{
+          display: contents;
+        }
+
+        .grid__row{
+          width: 14rem;
+          height: auto;
+          display: block;
+          margin-right: 0.5rem;
+          border: solid 1px $color-block--grey;
+          background-color: $color--block--white;
+          border-radius: 0.5rem;
+        }
+
+        .grid__row--item{
+          width: fit-content;
+          justify-content: space-between;
+          padding-bottom: 1rem;
+          font-weight: 400;
+        }
+
+        .grid__row--item:last-child{
+          padding-bottom: 0rem;
+        }
+
+        .grid__row--item-action{
+          display: none;
+        }
+
+        .grid__row--item-show{
+          display: contents;
+        }
+
+        .grid__row--item-time{
+          display: flex;
+          width: initial;
+          align-items: center;
+        }
+
+
+  }
