@@ -10,26 +10,6 @@
 # Отключения локального сервера
 сочетание клавиш `control+C`
 
-Ниже скопированно с самого задания что необходимо сделать
-## Блок 1.6: Настройки окружения + верстка финального макета
-
-1  [Что такое npm?](https://proglib.io/p/chto-takoe-npm-gayd-po-node-package-manager-dlya-nachinayushchih-2020-07-21)
-2  [Руководство Eslint + Prettier](https://ru.hexlet.io/blog/posts/rukovodstvo-eslint-prettier)
-3  [Webpack](https://www.youtube.com/watch?v=eSaF8NXeNsA&t=2s&ab_channel=%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BB%D0%B5%D0%BD%D0%9C%D0%B8%D0%BD%D0%B8%D0%BD)
-
-# Задание по верстке
-## Верстка адаптивного макета
-
-Нужно сверстать адаптивную страничку по макету из фигмы.
-
-#### Материалы
-
-1) [Макет](https://www.figma.com/file/gLOg4fR4ptNWIZlxArhekj/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%D0%B0?node-id=0-2186&t=vLjPtegSHQ0DvqUX-4)
-2) [Шрифт](https://webfonts.pro/base-web-fonts/sans-serif-grotesque/897-tt-lakes.html) (начертания TT Lakes Regular, TT Lakes Medium, TT Lakes Bold)
-3) Цвета - см. в макете
-4) Контентные тексты - можете использовать тексты из макета и/или "lorem ipsum"
-5) Иконки и изображения - экспортируйте из фигмы
-
 ### Интерактив
 
 1) Мобильное меню должно раскрываться при клике на кнопку "бургер" слева в шапке. На "планшете" меню закрывается или при нажатие на кнопку или при нажатии на "заблюренную" область.
@@ -53,15 +33,6 @@
 Скрипты для запуска проекта и деплоя на Github Pages смотрим в репо сборки.
 - На различный порядок и количество пунктов меню не обращайте внимание - меню на всех разрешениях должно быть одинаковым. По непонятным моментам в макете - обращайтесь к однокурсникам или ментору.
 
-#### Доп материалы:
-- [SCSS + БЭМ](https://nicothin.pro/idiomatic-pre-CSS/)
-
-#### Инструменты:
-- [SCSS](https://sass-scss.ru/guide/) - нас интересует вложенность правил, импорты, переменные
-- autoprefixer
-- [normalize.css](https://htmlacademy.ru/blog/useful/css/about-normalize-css)
-- editorconfig
-
 #### На что смотрим в верстке:
 - Правильный БЭМ нейминг
 - Корректное использование тегов
@@ -72,10 +43,3 @@
 - Плавные анимации, ховеры на кликабельных элементах
 - Отсутствие ошибок в консоли
 
-#### Темы для ревью:
-- npm
-- babel
-- source maps
-- dependencies
-- lock файл
-- npm scripts
